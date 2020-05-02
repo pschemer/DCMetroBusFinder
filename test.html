@@ -1,0 +1,23 @@
+              <!DOCTYPE html>
+<html>
+<body>
+
+<h2>The XMLHttpRequest Object</h2>
+
+<p id="demo">Let AJAX change this text.</p>
+
+<button type="button" onclick="loadDoc()">Change Content</button>
+
+<script>
+    function loadDoc() {
+
+        let apiKey = "b50ae5be27744b0a9a8d2935ddd3805d";
+        let xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "https://api.wmata.com/Incidents.svc/json/Incidents?api_key=" + apiKey, false);
+        xhttp.send();
+        document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+</script>
+
+</body>
+</html>
