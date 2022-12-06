@@ -1,6 +1,5 @@
 /**
  * Patrick Schemering
- * SWE 432 - HW 1
  * DEPENDANCIES: node-XMLHttpRequest (Get: npm i xmlhttprequest)
  * WMATA API - Bus Positions
  * Data set from:   https://developer.wmata.com/docs/services/54763629281d83086473f231/operations/5476362a281d830c946a3d68#BusPosition
